@@ -85,6 +85,13 @@ h1 {
     color: rgb(202, 192, 14);
     transform: translateY(-50%);
 }
+.display:focus,
+      .display:active {
+        border-color: transparent;
+        outline: none;
+      }
+
+
 .display-container>button
 {
     position: absolute;
